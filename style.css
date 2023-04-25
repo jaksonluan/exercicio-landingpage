@@ -1,0 +1,147 @@
+* {
+    margin: 0; 
+    padding: 0;  
+}
+
+body {
+    background-image: url(imagens/fundo.jpg);
+    background-size: 100% 100%;
+}
+
+.container_img {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: transparent;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.titlemenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-right: 30px;
+    flex: 1;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+
+    padding-right: 20px;
+}
+
+.cabeçalho a {
+    text-decoration: none;
+    color: #8a5a72;
+    
+}
+
+.cabeçalho a:hover {
+    color: #e88e6a;
+}
+
+section {
+    background-color: transparent;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.title {
+    font-size: 30px;
+    width: 300px;
+    padding-bottom: 20px;
+    color: #412432;
+}
+
+.text {
+    width: 300px;
+    padding-bottom: 20px;
+    color: #412432;
+}
+
+section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #412432;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #8a5a72;
+}
+
+section a:hover {
+    background-color: #e88e6a;
+}
+
+.botao {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+footer {
+    margin: 0;
+    display: flex;
+    height: 30px;
+    color: #e88e6a; 
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.assinatura {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+
+
