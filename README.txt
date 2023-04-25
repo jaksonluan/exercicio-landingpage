@@ -1,1 +1,1 @@
-ola
+Exercício proposto pelo professor Bonieky Lacerda do curso de HTML5/CSS3 B7Web
